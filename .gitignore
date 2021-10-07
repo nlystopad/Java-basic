@@ -1,5 +1,5 @@
 *.iml
-out/*
-.idea/*
+**/out/*
+**/.idea/*
 *.class
-target/*
+**/target/*
