@@ -1,7 +1,7 @@
 public class Circle extends Oval {
 
-    public Circle(double a, double b) {
-        super(a, b);
+    public Circle(double a) {
+        super(a);
     }
 
     /**

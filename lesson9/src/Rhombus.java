@@ -1,8 +1,7 @@
 public class Rhombus extends Rectangle {
 
     public Rhombus(int a, int b) {
-        this.a = a;
-        this.b = b;
+       super(a, b);
     }
 
     /**

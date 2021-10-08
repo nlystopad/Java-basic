@@ -1,12 +1,7 @@
 public class Square extends Rectangle {
 
     public Square(double a) {
-        this.a = a;
-    }
-
-    @Override
-    public void draw() {
-        super.draw();
+        super(a);
     }
 
     public double getArea() {
@@ -15,5 +10,10 @@ public class Square extends Rectangle {
 
     public double getPerimeter() {
         return a * 4;
+    }
+
+    @Override
+    public void draw() {
+        super.draw();
     }
 }

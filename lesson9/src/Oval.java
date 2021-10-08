@@ -8,6 +8,10 @@ public class Oval extends Geometry {
         this.b = b;
     }
 
+    public Oval(double a) {
+        this.a = a;
+    }
+
     /**
      * a = bigger diagonal
      * b = lower diagonal
