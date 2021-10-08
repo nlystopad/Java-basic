@@ -10,6 +10,7 @@ public class Rectangle extends Geometry {
 
     public Rectangle(double a) {
         this.a = a;
+        this.b = 1;                 //конструктор для класса Square
     }
 
     @Override
@@ -22,8 +23,6 @@ public class Rectangle extends Geometry {
         return (a + b) * 2;
     }
 
-    @Override
-    public void draw() {
 
-    }
 }
+

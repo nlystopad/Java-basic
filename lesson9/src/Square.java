@@ -12,8 +12,5 @@ public class Square extends Rectangle {
         return a * 4;
     }
 
-    @Override
-    public void draw() {
-        super.draw();
-    }
+
 }

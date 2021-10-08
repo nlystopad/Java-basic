@@ -18,9 +18,5 @@ public class Circle extends Oval {
         return a * 3.14;
     }
 
-    @Override
-    public void draw() {
-        super.draw();
-    }
 
 }

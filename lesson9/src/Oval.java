@@ -10,6 +10,7 @@ public class Oval extends Geometry {
 
     public Oval(double a) {
         this.a = a;
+        this.b = 1;                 //конструктор для класса Circle
     }
 
     /**
@@ -26,8 +27,6 @@ public class Oval extends Geometry {
         return Math.sqrt((Math.pow(a, 2) + Math.pow(b, 2)) / 2) * 3.14 * 2;
     }
 
-    @Override
-    public void draw() {
 
-    }
 }
+

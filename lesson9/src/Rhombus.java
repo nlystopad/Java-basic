@@ -1,13 +1,14 @@
 public class Rhombus extends Rectangle {
 
     public Rhombus(int a, int b) {
-       super(a, b);
+        super(a, b);
     }
 
     /**
      * a = bigger diagonal
      * b = lower diagonal
      */
+
     @Override
     public double getArea() {
         return (a * b) / 2;
